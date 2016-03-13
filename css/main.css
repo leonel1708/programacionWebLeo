@@ -1,8 +1,5 @@
-footer{
-	text-align: center;
-	color: orange;
-	background-color: #EAEAEA
-}
+
+/**************** GENERAL ****************/
 
 a{
 	text-decoration: none;
@@ -12,19 +9,13 @@ a{
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
-	/*background: #FFF8AE;*/
-	/*background: rgba(179,220,237,1);
-	background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(50%, rgba(41,184,229,1)), color-stop(100%, rgba(188,224,238,1)));
-	background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
-	background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
-	background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
-	background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );*/
 	/*  fondo degradado usar las dos lineas se cambian los colores */
 	background: -webkit-radial-gradient(#06f, #fff);
-    background: -moz-radial-gradient(#06f, #0f0);
+	background: -moz-radial-gradient(#06f, #0f0);
 }
+
+
+/**************** HEADING ****************/
 
 #logo{
 	text-align: center;
@@ -36,14 +27,60 @@ header{
 	border-color: #1d766f;
 }
 
+h1
+{
+	text-align: center;
+	background-color: #37da7b;
+	font-family: 'Ubuntu', sans-serif;
+	margin: 15px 0;
+	font-weight: bold;
+	line-height: 2em;
+}
+
+h2{
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	margin: 15px 0;
+	font-weight: bold;
+}
+
 h1,h2{
 	color: #ffffff;
 }
+
+
+/**************** NAVIGATION ****************/
 
 nav{
 	background: #ffc473;
 }
 
 nav a, nav a:visited{
+	font-weight: bold;
 	color: #1144aa;
+}
+
+/*cambia de color al estar seleccionada*/
+nav a.selected{
+	font-weight: bold;
+	color: #A64800;
+}
+
+/*cambia de color al pasar el mouse por encima*/
+nav a:hover{
+	color: #c9a05a;
+}
+
+
+/**************** GALERIA ****************/
+
+
+
+
+/**************** FOOTER ****************/
+
+footer{
+	text-align: center;
+	color: orange;
+	background-color: #EAEAEA
 }
