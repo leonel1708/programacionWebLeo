@@ -1,4 +1,6 @@
 
+/**************** PÁGINA INDEX ****************/
+
 /**************** GENERAL ****************/
 
 a{
@@ -144,4 +146,15 @@ footer{
 	width: 30px;
 	height: 30px;
 	margin: 0 5px;
+}
+
+
+
+/**************** PÁGINA ABOUT ****************/
+
+.profile-photo{
+	display: block;
+	max-width: 500px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
 }
