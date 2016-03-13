@@ -5,6 +5,10 @@ a{
 	text-decoration: none;
 }
 
+img{
+	max-width: 100%
+}
+
 #wrapper{
 	max-width: 940px;
 	margin: 0 auto;
@@ -75,12 +79,33 @@ nav a:hover{
 /**************** GALERIA ****************/
 
 
+#galeria{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+#galeria li{
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+}
+
+#galeria li a p{
+	margin: 0;
+	padding: 5%;
+	font-size: 0,75em;
+}
 
 
 /**************** FOOTER ****************/
 
 footer{
-	text-align: center;
+	clear: both;
+	position:fixed;
+    bottom:0;
+    width:100%;
+   	text-align: center;
 	color: orange;
 	background-color: #EAEAEA
 }
