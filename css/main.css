@@ -16,8 +16,8 @@ img{
 	margin: 0 auto;
 	padding: 0 5%;
 	/*  fondo degradado usar las dos lineas se cambian los colores */
-	background: -webkit-radial-gradient(#06f, #fff);
-	background: -moz-radial-gradient(#06f, #0f0);
+	/*background: -webkit-radial-gradient(#06f, #fff);
+	background: -moz-radial-gradient(#06f, #0f0);*/
 }
 
 
@@ -197,39 +197,7 @@ section p{margin: 0}
 
 
 /**************** PÁGINA PRODUCTOS ****************/
-@media all and (max-width: 1200px) {
-    section.ul {
-        display: inline-block;
-        padding:0px 6px;
-        margin:0px 4px;
-    }
-}
 
-@media all and (max-width: 840px) {
-    section.ul {
-        margin:0px;
-        padding:0px;
-        padding-left:5%;
-        display:block;
-        float:none;
-        text-align:left;
-    }
-}
-
-
-@media all and (max-width: 520px) {
-    section.ul{
-        padding-left:20%;
-    }
-}
-
-@media all and (max-width: 600px){
-    section.ul{
-        width:100%;
-        height:auto;
-        margin-left:10px;
-    }
-}
 
 
 .img-desc cite {
@@ -244,3 +212,4 @@ section p{margin: 0}
     padding: 0px;
     border-top: 1px solid #999;
 }
+
