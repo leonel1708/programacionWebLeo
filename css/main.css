@@ -12,6 +12,7 @@ img{
 }
 
 #wrapper{
+	/*display: block;*/
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
@@ -39,7 +40,6 @@ header{
 h1
 {
 	text-align: center;
-	background-color: #37da7b;
 	font-family: 'Ubuntu', sans-serif;
 	margin: 15px 0;
 	font-weight: bold;
@@ -55,6 +55,7 @@ h2{
 	/*background: #66a1d2;*/
 	padding: 15px, 10px;
 }
+
 
 h1,h2{
 	color: #ffffff;
@@ -193,7 +194,9 @@ footer{
 	margin: 0 0 10px;
 }
 
-section p{margin: 0}
+/*section p{margin: 0}
+
+section{margin: 0}*/
 
 
 /**************** PÁGINA PRODUCTOS ****************/
