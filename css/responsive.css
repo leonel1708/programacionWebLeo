@@ -32,7 +32,14 @@
         font-size: 1.125em;
         margin-right: 5%;
         text-align: right;
-        /*width: 45%;*/
+        width: 45%
+    }
+
+    #logo{
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        width: 45%;
     }
 
     header{
