@@ -194,3 +194,53 @@ footer{
 }
 
 section p{margin: 0}
+
+
+/**************** PÁGINA PRODUCTOS ****************/
+@media all and (max-width: 1200px) {
+    section.ul {
+        display: inline-block;
+        padding:0px 6px;
+        margin:0px 4px;
+    }
+}
+
+@media all and (max-width: 840px) {
+    section.ul {
+        margin:0px;
+        padding:0px;
+        padding-left:5%;
+        display:block;
+        float:none;
+        text-align:left;
+    }
+}
+
+
+@media all and (max-width: 520px) {
+    section.ul{
+        padding-left:20%;
+    }
+}
+
+@media all and (max-width: 600px){
+    section.ul{
+        width:100%;
+        height:auto;
+        margin-left:10px;
+    }
+}
+
+
+.img-desc cite {
+    background: #111;
+    filter:alpha(opacity=55);
+    opacity:.55;
+    color: #fff;
+    /*position: absolute;*/
+    bottom: 0;
+    left: 0;
+    /*width: 555px;¨*/
+    padding: 0px;
+    border-top: 1px solid #999;
+}
